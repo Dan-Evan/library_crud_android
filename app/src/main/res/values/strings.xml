@@ -1,0 +1,12 @@
+<resources>
+    <string name="action_delete">Delete All</string>
+    <string name="book_title">Book Title</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="add_button">Add Button</string>
+    <string name="isbn">ISBN</string>
+    <string name="book_author">Book Author</string>
+    <string name="course">Course</string>
+    <string name="app_name">Library Textbook Record</string>
+    <string name="book_course">Book Course</string>
+</resources>

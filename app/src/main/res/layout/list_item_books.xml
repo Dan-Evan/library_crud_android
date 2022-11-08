@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:id="@+id/bookList"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewISBN"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/isbn"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+             />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:text="@string/book_title"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:text="@string/book_author"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewCourse"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:text="@string/book_course"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
